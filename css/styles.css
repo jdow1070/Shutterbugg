@@ -1,0 +1,90 @@
+/* Shutterbug Bootstrap Project 2/3/2019 */
+
+body {
+	background-color: #DEF5FF;
+}
+
+.container {
+	max-width: 960px;
+}
+
+.main {
+	background-image: url("../images/intro.jpg");
+	height: 600px;
+	background-size: cover;
+	padding-top: 30px;
+}
+
+.main h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 68px;
+	color: white;
+	text-shadow: 0px 0px 10px black;
+	transition: text-shadow .2s;
+}
+
+.main h2 {
+	font-family: 'Advent Pro', sans-serif;
+	font-size: 40px;
+	color: white;
+	text-shadow: 0px 0px 5px black;
+	transition: text-shadow .2s;
+}
+
+.main h1:hover {
+	text-shadow: lightblue 5px 5px 5px;
+	font-size: 75px;
+}
+
+.main h2:hover {
+	text-shadow: lightblue 5px 5px 5px;
+	font-size: 45px;
+}
+
+.btn {
+	font-size: 20px;
+	background-color: #E7F8FF;
+	border-radius: 20px;
+}
+
+.btn:hover {
+	color: darkgrey;
+	background-color: #E7F8FF;
+}
+
+.row {
+	padding-top: 50px;
+	text-align: center;
+}
+
+.row p {
+	font-family: 'Quicksand', sans-serif;
+}
+
+#store {
+	text-align: center;
+	border-bottom: 1px solid black;
+	padding-top: 50px;
+}
+
+.footer h1 {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.footer ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
